@@ -27,6 +27,16 @@ h2 {
   margin-top: 50px;
 }
 
+.center {
+  width: 5%;
+  height: 5%;
+  background-color: rgb(8, 1, 45);
+  position: absolute;
+  left: 49%;
+  top: 48%;
+  border-radius: 50%;
+}
+
 .hour,
 .minute,
 .second {
