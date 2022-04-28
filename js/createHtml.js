@@ -1,9 +1,7 @@
-// import { clockInterval } from "./clock.js";
-
-const body = document.querySelector("body");
+const worldClock = document.querySelector(".worldClock");
 
 export function createHtml(city) {
-  body.innerHTML += `<div class="container">
+  worldClock.innerHTML += `<div class="container">
   <div class="clock" id="${city.city}">
     <div class="hour" id="hour-${city.city}"></div>
     <div class="minute" id="min-${city.city}"></div>
